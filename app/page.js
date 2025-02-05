@@ -1,20 +1,31 @@
 "use client"
-
 import Image from "next/image";
 import { useState } from "react";
 
 export default function Componentes() {
   return (
-    <Cliqueando/>
+    <>
+      <Toggle/>
+      {/* <Holi/>
+      <Destino/> */}
+    </>
   );
 }
 
-export function Cliqueando() {
-  const [count, setCount] = useState(0);
+export function Toggle() {
   return (
-    <div>
-      <button onClick={() => setCount(count+1)} type="button" className="btn">Cliquea</button>
-      <h1 className="tittle">Has pulsado {count} veces el botón</h1>
-    </div>
-  )
+    <button className="btn" type="button">off</button>
+  );
 }
+
+// export function Holi() {
+//   return (
+    
+//   );
+// }
+
+// export function Destino() {
+//   return (
+    
+//   );
+// }
