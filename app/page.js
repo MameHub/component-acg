@@ -1,13 +1,13 @@
 "use client";
-import Raul from "./componentes/Raul.js";
-import Contando from "./componentes/Contando.js";
-import Toggle from "./componentes/Toggle.js";
-import CuentaFuegos from "./componentes/CuentaFuegos.js";
-import Reloj from "./componentes/Reloj.js";
-import Cliqueando from "./componentes/Cliqueando.js";
-import DespliegueEnViernes from "./componentes/DespliegueEnViernes.js";
-import Destino from "./componentes/Destino.js";
-import {Holi} from "./componentes/Holi.js";
+import Raul from "../../component-group/app/componentes/Raul.js";
+import Contando from "../../component-group/app/componentes/Contando.js";
+import Toggle from "../../component-group/app/componentes/Toggle.js";
+import CuentaFuegos from "../../component-group/app/componentes/CuentaFuegos.js";
+import Reloj from "../../component-group/app/componentes/Reloj.js";
+import Cliqueando from "../../component-group/app/componentes/Cliqueando.js";
+import DespliegueEnViernes from "../../component-group/app/componentes/DespliegueEnViernes.js";
+import Destino from "../../component-group/app/componentes/Destino.js";
+import {Holi} from "../../component-group/app/componentes/Holi.js";
 
 export default function Main(){
   return(
