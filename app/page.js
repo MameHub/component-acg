@@ -1,22 +1,35 @@
 "use client";
-import Raul from "../../component-group/app/componentes/Raul.js";
-import Contando from "../../component-group/app/componentes/Contando.js";
-import Toggle from "../../component-group/app/componentes/Toggle.js";
-import CuentaFuegos from "../../component-group/app/componentes/CuentaFuegos.js";
-import Reloj from "../../component-group/app/componentes/Reloj.js";
-import Cliqueando from "../../component-group/app/componentes/Cliqueando.js";
-import DespliegueEnViernes from "../../component-group/app/componentes/DespliegueEnViernes.js";
-import Destino from "../../component-group/app/componentes/Destino.js";
-import {Holi} from "../../component-group/app/componentes/Holi.js";
+import MiNombre from "./componentes/miNombre";
+import Toggle from "./componentes/toggle";
+import Holi from "./componentes/holi";
+// import Raul from "../../component-group/app/componentes/Raul.js";
+// import {Holi} from "../../component-group/app/componentes/Holi.js";
 
 export default function Main(){
   return(
     <div>
        <div className="componentes-container">
           <h1>Listado de componentes</h1>
-          <h3>Jesús Ferrer, Raúl Bermudez, Alvaro Cañas</h3>
+
+          <div>
+            <h2>Componente miNombre</h2>
+            <MiNombre/>
+          </div>
+
+          <div>
+            <h2>Componente Toggle</h2>
+            <Toggle/>
+          </div>
+
+
+          
+          <div>
+            <h2>Componente Holi</h2>
+            <Holi nombre={"Álvaro"}/>
+            <Holi nombre={""}/>
+          </div>
         
-          <div className="tarjeta">
+          {/* <div className="tarjeta">
             <h2>Componente Raul</h2>
             <Raul nombre="Raúl" apellidos="Bermúdez González" redsocial="Github"/>
           </div>
@@ -60,7 +73,7 @@ export default function Main(){
           <div className="tarjeta">
             <h2>Componente Reloj</h2>
             <Reloj />
-          </div>
+          </div> */}
         </div>
     </div>
   )

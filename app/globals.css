@@ -40,3 +40,29 @@ a {
     color-scheme: dark;
   }
 }
+
+a{
+  text-decoration: underline;
+}
+
+.btnOn{
+  width: 10%;
+  height: 30px;
+  background-color: green;
+  color: white;
+  padding: "10px 20px";
+  border: "none";
+  border-radius: "5px";
+  cursor: "pointer";
+}
+
+.btnOff{
+  width: 10%;
+  height: 30px;
+  background-color: red;
+  color: "white";
+  padding: "10px 20px";
+  border: "none";
+  border-radius: "5px";
+  cursor: "pointer";
+}
