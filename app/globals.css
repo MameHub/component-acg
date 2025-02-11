@@ -30,10 +30,10 @@ body {
   margin: 0;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -41,8 +41,56 @@ a {
   }
 }
 
-a{
-  text-decoration: underline;
+.component-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  
+}
+
+.color1 {
+  color: chocolate;
+}
+
+.color2 {
+  color: aquamarine;
+}
+
+.color3 {
+  color: darkgreen;
+}
+
+.color4 {
+  color: slateblue;
+}
+
+.color5 {
+  color: violet;
+}
+
+.color6 {
+  color: yellow;
+}
+
+.color7 {
+  color: orange;
+}
+
+.color8 {
+  color: red;
+}
+
+.color9 {
+  color: mediumvioletred;
+}
+
+.color10 {
+  color: brown;
 }
 
 .btnOn{
