@@ -31,6 +31,12 @@ export default function Main(){
             <Holi nombre={"Álvaro"}/>
             <Holi nombre={""}/>
           </div>
+
+          <div className="component">
+            <h2>Componente Despliegue en viernes</h2>
+            <DepliegueEnViernes/>
+          </div>
+
         </div>
     </div>
   )

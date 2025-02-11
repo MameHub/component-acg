@@ -50,45 +50,55 @@ body {
 
 .color1 {
   color: chocolate;
+  background-color: gold;
 }
 
 .color2 {
   color: aquamarine;
+  background-color: red;
 }
 
 .color3 {
   color: darkgreen;
+  background-color: blue;
 }
 
 .color4 {
   color: slateblue;
+  background-color: brown;
 }
 
 .color5 {
   color: violet;
+  background-color: orange;
 }
 
 .color6 {
   color: yellow;
+  background-color: violet;
 }
 
 .color7 {
   color: orange;
+  background-color: yellow;
 }
 
 .color8 {
   color: red;
+  background-color: green;
 }
 
 .color9 {
   color: mediumvioletred;
+  background-color: aqua;
 }
 
 .color10 {
   color: brown;
+  background-color: cadetblue;
 }
 
-.btnOn{
+.btnOn {
   width: 10%;
   height: 30px;
   background-color: green;
@@ -99,7 +109,7 @@ body {
   cursor: "pointer";
 }
 
-.btnOff{
+.btnOff {
   width: 10%;
   height: 30px;
   background-color: red;
@@ -108,4 +118,8 @@ body {
   border: "none";
   border-radius: "5px";
   cursor: "pointer";
+}
+
+.textBox {
+  
 }
