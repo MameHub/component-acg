@@ -1,14 +1,14 @@
 "use client";
-import MiNombre from "./componentes/MiNombre";
-import Toggle from "./componentes/Toggle";
-import Cliqueando from "./componentes/Cliqueando";
-import contando from "./componentes/Contando";
-import Holi from "./componentes/Holi";
-import DepliegueEnViernes from "./componentes/DespliegueEnViernes";
-import CuentaFuegos from "./componentes/CuentaFuegos";
-import Destino from "./componentes/Destino";
-import ImagenCiudad from "./componentes/ImagenCiudad";
-import Reloj from "./componentes/Reloj";
+import MiNombre from "./componentes/miNombre";
+import Toggle from "./componentes/toggle";
+import Cliqueando from "./componentes/cliqueando";
+import contando from "./componentes/contando";
+import Holi from "./componentes/holi";
+import DepliegueEnViernes from "./componentes/despliegueEnViernes";
+import CuentaFuegos from "./componentes/cuentaFuegos";
+import Destino from "./componentes/destino";
+import ImagenCiudad from "./componentes/imagenCiudad";
+import Reloj from "./componentes/reloj";
 
 export default function Main(){
   return(
@@ -17,13 +17,18 @@ export default function Main(){
           <h1>Listado de componentes</h1>
 
           <div className="component">
-            <h2>Componente miNombre</h2>
+            <h2>Componente MiNombre</h2>
             <MiNombre/>
           </div>
 
           <div className="component">
             <h2>Componente Toggle</h2>
             <Toggle/>
+          </div>
+
+          <div className="component">
+            <h2>Componente Cliqueado</h2>
+            <Cliqueando/>
           </div>
 
           <div className="component">
@@ -35,6 +40,11 @@ export default function Main(){
           <div className="component">
             <h2>Componente Despliegue en viernes</h2>
             <DepliegueEnViernes/>
+          </div>
+          
+          <div className="component">
+            <h2>Componente Destino</h2>
+            <Destino/>
           </div>
 
         </div>
