@@ -2,7 +2,7 @@
 import MiNombre from "./componentes/miNombre";
 import Toggle from "./componentes/toggle";
 import Cliqueando from "./componentes/cliqueando";
-import contando from "./componentes/contando";
+// import Contando from "./componentes/contando";
 import Holi from "./componentes/holi";
 import DepliegueEnViernes from "./componentes/despliegueEnViernes";
 import CuentaFuegos from "./componentes/cuentaFuegos";

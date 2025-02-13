@@ -11,10 +11,12 @@ export default function Contando(){
     return(
         <div>
             <p onMouseEnter={reset}>Contador: {counter}</p>
-            <button className="btn" onClick={() => counterAdd(1)}>1</button>
-            <button className="btn" onClick={() => counterAdd(10)}>10</button>
-            <button className="btn" onClick={() => counterAdd(100)}>100</button>
-            <button className="btn" onClick={() => counterAdd(1000)}>1000</button>
+            <div className="buttons">
+                <button className="btn" onClick={() => counterAdd(1)}>1</button>
+                <button className="btn" onClick={() => counterAdd(10)}>10</button>
+                <button className="btn" onClick={() => counterAdd(100)}>100</button>
+                <button className="btn" onClick={() => counterAdd(1000)}>1000</button>
+            </div>
         </div>
     )
 }

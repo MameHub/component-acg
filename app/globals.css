@@ -48,8 +48,16 @@ body {
   
 }
 
-.btn{
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   
+}
+
+.btn {
+  flex: 1 0;
 }
 
 .color1 {
