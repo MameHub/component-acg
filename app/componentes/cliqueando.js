@@ -10,7 +10,6 @@ export default function Cliqueando() {
 
     const sum = () => {
         setCount(prevCounter => prevCounter + 1);
-        console.log(count);
     }
 
     const reset = () => {

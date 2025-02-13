@@ -32,6 +32,11 @@ export default function Main(){
           </div>
 
           <div className="component">
+            <h2>Componente Contando</h2>
+            <Contando/>
+          </div>
+
+          <div className="component">
             <h2>Componente Holi</h2>
             <Holi nombre={"Álvaro"}/>
             <Holi nombre={""}/>
@@ -39,17 +44,27 @@ export default function Main(){
 
           <div className="component">
             <h2>Componente Despliegue en viernes</h2>
-            <DepliegueEnViernes/>
+            {/* <DepliegueEnViernes/> */}
+          </div>
+
+          <div className="component">
+            <h2>Componente Cuenta fuegos</h2>
+            {/* <CuentaFuegos/> */}
           </div>
           
           <div className="component">
             <h2>Componente Destino</h2>
             <Destino/>
           </div>
-          
+
           <div className="component">
-            <h2>Componente Contando</h2>
-            <Contando/>
+            <h2>Componente Imagen ciudad</h2>
+            {/* <ImagenCiudad/> */}
+          </div>
+
+          <div className="component">
+            <h2>Componente Reloj</h2>
+            {/* <Reloj/> */}
           </div>
 
         </div>
