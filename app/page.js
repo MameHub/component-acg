@@ -9,6 +9,7 @@ import CuentaFuegos from "./componentes/cuentaFuegos";
 import Destino from "./componentes/destino";
 import ImagenCiudad from "./componentes/imagenCiudad";
 import Reloj from "./componentes/reloj";
+import Contando from "./componentes/contando";
 
 export default function Main(){
   return(
@@ -45,6 +46,11 @@ export default function Main(){
           <div className="component">
             <h2>Componente Destino</h2>
             <Destino/>
+          </div>
+          
+          <div className="component">
+            <h2>Componente Contando</h2>
+            <Contando/>
           </div>
 
         </div>
