@@ -1,7 +1,7 @@
 export default function DespliegueEnViernes() {
     return(
         <div>
-            <textarea placeholder="Introduzca el día del despliegue" className="textBox"></textarea>
+            <textarea placeholder="Introduzca el texto" className="textBox"></textarea>
         </div>
     )
 }

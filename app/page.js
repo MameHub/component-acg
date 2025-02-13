@@ -2,14 +2,13 @@
 import MiNombre from "./componentes/miNombre";
 import Toggle from "./componentes/toggle";
 import Cliqueando from "./componentes/cliqueando";
-// import Contando from "./componentes/contando";
+import Contando from "./componentes/contando";
 import Holi from "./componentes/holi";
 import DepliegueEnViernes from "./componentes/despliegueEnViernes";
 import CuentaFuegos from "./componentes/cuentaFuegos";
 import Destino from "./componentes/destino";
 import ImagenCiudad from "./componentes/imagenCiudad";
 import Reloj from "./componentes/reloj";
-import Contando from "./componentes/contando";
 
 export default function Main(){
   return(
