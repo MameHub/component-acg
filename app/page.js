@@ -49,7 +49,7 @@ export default function Main(){
 
           <div className="component">
             <h2>Componente Cuenta fuegos</h2>
-            {/* <CuentaFuegos/> */}
+            <CuentaFuegos/>
           </div>
           
           <div className="component">
@@ -64,7 +64,7 @@ export default function Main(){
 
           <div className="component">
             <h2>Componente Reloj</h2>
-            {/* <Reloj/> */}
+            <Reloj/>
           </div>
 
         </div>
