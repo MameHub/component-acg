@@ -44,7 +44,7 @@ export default function Main(){
 
           <div className="component">
             <h2>Componente Despliegue en viernes</h2>
-            {/* <DepliegueEnViernes/> */}
+            <DepliegueEnViernes/>
           </div>
 
           <div className="component">
@@ -54,7 +54,7 @@ export default function Main(){
           
           <div className="component">
             <h2>Componente Destino</h2>
-            <Destino/>
+            {/* <Destino/> */}
           </div>
 
           <div className="component">
