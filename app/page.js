@@ -54,12 +54,12 @@ export default function Main(){
           
           <div className="component">
             <h2>Componente Destino</h2>
-            {/* <Destino/> */}
+            <Destino/>
           </div>
 
           <div className="component">
             <h2>Componente Imagen ciudad</h2>
-            {/* <ImagenCiudad/> */}
+            <ImagenCiudad/>
           </div>
 
           <div className="component">

@@ -1,7 +1,7 @@
 import { useState } from "react"; 
 
 export default function Destino() {
-    const [option, setOption] = useState(ciudades[0]);
+    const [option, setOption] = useState(0);
     const ciudades = {
         "Córdoba" : "https://images.unsplash.com/photo-1623002866514-4ebad37868fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "Madrid" : "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFkcmlkfGVufDB8fDB8fHww",
@@ -11,10 +11,7 @@ export default function Destino() {
 
     return(
         <div>
-            <select value={option}>
-                {Object.keys(ciudades).map((ciudad) => (
-                    <option key={ciudad} value={ciudad}>{ciudad}</option>
-                ))}
+            <select value={option[0]}>
                 <option>{ciudades[0]}</option>
                 <option>{ciudades[1]}</option>
                 <option>{ciudades[2]}</option>
