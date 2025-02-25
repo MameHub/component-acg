@@ -19,5 +19,5 @@ export default function CuentaFuegos() {
             <p onMouseEnter={reset}>{fuego}</p>
             <img></img>
         </div>
-    )
+    );
 }
